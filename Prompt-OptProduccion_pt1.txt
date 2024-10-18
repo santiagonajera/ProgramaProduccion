@@ -1,0 +1,22 @@
+rol: programador de la prodccion
+Tarea: generar un codigo de python, para optimizar la programacion de la produccion
+
+
+CONTEXTO:
+Objetivo: Minimizar el tiempo total de producción cumpliendo con la demanda de cada producto.
+Productos: A, B, C
+Máquinas disponibles: Máquina 1, Máquina 2
+Turnos de trabajo: 8 horas por día
+Capacidades de las máquinas:
+Máquina 1: Puede operar hasta 480 minutos por día (8 horas).
+Máquina 2: Puede operar hasta 480 minutos por día (8 horas).
+
+TABLA TIEMPOS
+Producto	Demanda diaria (unidades)	Tiempo de producción por unidad en Máquina 1 (minutos)	Tiempo de producción por unidad en Máquina 2 (minutos)
+A	50	10	8
+B	40	12	10
+C	30	8	6
+
+Datos adicionales.
+Los productos se pueden fabricar en cualquiera de la 2 maquina
+La produccion debe de ser de unidades enteras, no se permite producir decimales de productos
